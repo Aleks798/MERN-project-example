@@ -1,0 +1,54 @@
+Attaching to mern-course-mongo-1, mern-course-mongo-express-1
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.127+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"-","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":17},"outgoing":{"minWireVersion":6,"maxWireVersion":17},"isInternalClient":true}}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.127+00:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"-","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.128+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"main","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize."}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.129+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationDonorService","namespace":"config.tenantMigrationDonors"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.129+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationRecipientService","namespace":"config.tenantMigrationRecipients"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.129+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"ShardSplitDonorService","namespace":"config.tenantSplitDonors"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.129+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.129+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"18f40d16ed0c"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.129+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"6.0.7","gitVersion":"202ad4fda2618c652e35f5981ef2f903d8dd1f1a","openSSLVersion":"OpenSSL 3.0.2 15 Mar 2022","modules":[],"allocator":"tcmalloc","environment":{"distmod":"ubuntu2204","distarch":"aarch64","target_arch":"aarch64"}}}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.129+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"22.04"}}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.129+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"},"security":{"authorization":"enabled"}}}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.132+00:00"},"s":"I",  "c":"STORAGE",  "id":22270,   "ctx":"initandlisten","msg":"Storage engine to use detected by data files","attr":{"dbpath":"/data/db","storageEngine":"wiredTiger"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:31.134+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=3413M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,backup:0,checkpoint:0,compact:0,evict:0,history_store:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+mern-course-mongo-express-1  | Welcome to mongo-express
+mern-course-mongo-express-1  | ------------------------
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1 exited with code 0
+mern-course-mongo-express-1  | Welcome to mongo-express
+mern-course-mongo-express-1  | ------------------------
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1 exited with code 0
+mern-course-mongo-express-1  | Welcome to mongo-express
+mern-course-mongo-express-1  | ------------------------
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1 exited with code 0
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.049+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":1915}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.049+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.059+00:00"},"s":"W",  "c":"CONTROL",  "id":5123300, "ctx":"initandlisten","msg":"vm.max_map_count is too low","attr":{"currentValue":262144,"recommendedMinimum":1677720,"maxConns":838860},"tags":["startupWarnings"]}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.065+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":17},"outgoing":{"minWireVersion":6,"maxWireVersion":17},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":17,"maxWireVersion":17},"outgoing":{"minWireVersion":17,"maxWireVersion":17},"isInternalClient":true}}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.065+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"6.0","context":"startup"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.066+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.068+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.069+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.075+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.076+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.077+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.077+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0"}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.077+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+mern-course-mongo-express-1  | Welcome to mongo-express
+mern-course-mongo-express-1  | ------------------------
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1  | 
+mern-course-mongo-express-1  | 
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.213+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.2:47334","uuid":"32bf2531-2f66-415f-b610-486989f15921","connectionId":1,"connectionCount":1}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.216+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn1","msg":"client metadata","attr":{"remote":"172.19.0.2:47334","client":"conn1","doc":{"driver":{"name":"nodejs","version":"3.7.3"},"os":{"type":"Linux","name":"linux","architecture":"arm64","version":"5.15.49-linuxkit-pr"},"platform":"'Node.js v12.22.7, LE (legacy)"}}}
+mern-course-mongo-1          | {"t":{"$date":"2023-07-13T18:04:33.233+00:00"},"s":"I",  "c":"ACCESS",   "id":20250,   "ctx":"conn1","msg":"Authentication succeeded","attr":{"mechanism":"SCRAM-SHA-256","speculative":true,"principalName":"root","authenticationDatabase":"admin","remote":"172.19.0.2:47334","extraInfo":{}}}
+mern-course-mongo-express-1  | Mongo Express server listening at http://0.0.0.0:8081
